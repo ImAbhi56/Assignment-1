@@ -1,0 +1,26 @@
+Q1: Creating and Renaming Files/Directories
+Create a directory named test_dir using mkdir.
+Inside test_dir, create an empty file called example.txt.
+Rename example.txt to renamed_example.txt using mv
+
+ Ans: 
+
+abhishek@Abhishek-OQG635QV:~$ mkdir test_dir
+mkdir: cannot create directory ‘test_dir’: File exists
+
+abhishek@Abhishek-OQG635QV:~$ ls
+aws      aws_resource_list.sh  test_dir
+aws.log  awscliv2.zip
+
+abhishek@Abhishek-OQG635QV:~$ cd test_dir
+abhishek@Abhishek-OQG635QV:~/test_dir$ touch example.txt
+abhishek@Abhishek-OQG635QV:~/test_dir$ ls
+Example.txt
+
+abhishek@Abhishek-OQG635QV:~/test_dir$ mv example.text renamed_example.txt
+mv: cannot stat 'example.text': No such file or directory
+abhishek@Abhishek-OQG635QV:~/test_dir$ mv example.txt renamed_example.txt
+abhishek@Abhishek-OQG635QV:~/test_dir$ ls
+renamed_example.txt
+abhishek@Abhishek-OQG635QV:~/test_dir$
+

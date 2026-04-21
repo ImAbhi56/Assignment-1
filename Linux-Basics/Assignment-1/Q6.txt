@@ -1,0 +1,16 @@
+Q6. Changing Permissions
+Create a file named secure.txt and change its permissions to read-only for everyone using chmod. 
+
+
+ Ans:
+
+abhishek@Abhishek-OQG635QV:~$ touch secure.txt
+abhishek@Abhishek-OQG635QV:~$ ls
+aws  aws.log  aws_resource_list.sh  awscliv2.zip  index.html  secure.txt  test_dir  test_dir.zip  unzipped_dir
+abhishek@Abhishek-OQG635QV:~$ chmod u=r,g=r,o=r secure.txt
+abhishek@Abhishek-OQG635QV:~$ ls-l
+ls-l: command not found
+abhishek@Abhishek-OQG635QV:~$ ls -l secure.txt
+-r--r--r-- 1 abhishek abhishek 0 Apr 17 11:07 secure.txt
+abhishek@Abhishek-OQG635QV:~$
+

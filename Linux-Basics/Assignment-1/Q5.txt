@@ -1,0 +1,20 @@
+Q5. Downloading Files
+Use wget to download a file from a URL (e.g., https://example.com/sample.txt).
+
+Ans: 
+
+abhishek@Abhishek-OQG635QV:~$ wget https://www.google.com/
+--2026-04-17 11:05:10--  https://www.google.com/
+Resolving www.google.com (www.google.com)... 142.251.151.119, 142.251.155.119, 142.251.156.119, ...
+Connecting to www.google.com (www.google.com)|142.251.151.119|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+index.html                                 [ <=>                                                                         ]  79.62K  --.-KB/s    in 0.07s
+
+2026-04-17 11:05:11 (1.16 MB/s) - ‘index.html’ saved [81536]
+
+abhishek@Abhishek-OQG635QV:~$
+
+

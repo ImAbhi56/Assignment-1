@@ -1,0 +1,26 @@
+Q7. Working with Environment Variables
+Use export to set a new environment variable called MY_VAR with the value "Hello, Linux!".
+
+
+Ans: 
+
+abhishek@Abhishek-OQG635QV:~$ export MY_VAR
+abhishek@Abhishek-OQG635QV:~$ ls
+aws  aws.log  aws_resource_list.sh  awscliv2.zip  index.html  secure.txt  test_dir  test_dir.zip  unzipped_dir
+abhishek@Abhishek-OQG635QV:~$ vim MY_VAR
+abhishek@Abhishek-OQG635QV:~$ ls MY_VAR
+MY_VAR
+abhishek@Abhishek-OQG635QV:~$ cat MY_VAR
+Hello, Linux!
+
+abhishek@Abhishek-OQG635QV:~$ export MY_VAR ="Hello, Linux!"
+-bash: export: `=Hello, Linux!': not a valid identifier
+abhishek@Abhishek-OQG635QV:~$ export MY_VAR ="Hello,Linux!"
+-bash: export: `=Hello,Linux!': not a valid identifier
+abhishek@Abhishek-OQG635QV:~$ echo $MY_VAR
+
+abhishek@Abhishek-OQG635QV:~$ export MY_VAR="Hello, Linux!"
+abhishek@Abhishek-OQG635QV:~$ echo $MY_VAR
+Hello, Linux!
+abhishek@Abhishek-OQG635QV:~$
+
