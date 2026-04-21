@@ -6,7 +6,7 @@ This repository contains my hands-on assignments and practice work covering core
 
 ## 📚 Topics Covered
 
-### 🐧 Linux Basics
+### 🐧 Linux Basics - https://github.com/ImAbhi56/DevOps-Assignments/tree/main/Linux-Basics/Assignment-1 
 - File and directory operations
 - Viewing file contents (`cat`, `head`, `tail`)
 - Searching using `grep`
