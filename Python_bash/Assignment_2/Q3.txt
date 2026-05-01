@@ -1,0 +1,34 @@
+Q3.Write to a File
+Write a program to create a text file and write some content to it.
+Using file functions like write and open.
+Ans: 
+
+f = open('data.txt', 'a+')
+
+
+#write to the file
+f.write("\n Hello, This is a Serious Meeting!.\n")
+
+
+f.seek(0) #move the file pointer to the beginning of the file
+
+
+#print the entire file
+data = f.readlines()
+
+
+#print the entire file again
+print(data)
+
+
+#close the file after use
+f.close()
+
+
+
+On Terminal 👍
+
+PS C:\Users\#LENOVO INDIA\OneDrive\Downloads\DevOps\python_tutorials> python writing_file.py
+['When Manager asks:\n', "Why did the assigned task didn't complete \n", '\n', 'Me: Kijiye meeting..meeting! kariye meeting..meeting! \n', '        ALHUA MEETING !!\n', '\n', '\n', ' Hello, This is a Serious Meeting!.\n', '\n', ' Hello, This is a Serious Meeting!.\n']
+
+
