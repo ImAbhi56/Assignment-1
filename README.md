@@ -21,7 +21,13 @@ This repository contains my hands-on assignments and practice work covering core
 ---
 
 ### 🐍 Python & Bash Scripting
+🧠 Overview
+This assignment covers basic Python concepts including:
 
+Conditional statements
+Dictionaries
+File handling (read/write)
+Simple terminal execution
 ---
 
 ### 🌐 Flask & MongoDB
